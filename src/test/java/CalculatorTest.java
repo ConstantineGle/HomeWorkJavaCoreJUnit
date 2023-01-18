@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.*;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-
 public class CalculatorTest {
 
     Calculator sut;
@@ -41,8 +39,4 @@ public class CalculatorTest {
         Assertions.assertTrue(actual);
     }
 
-    @Test
-    public void isPositiveHamcrest() {
-
-    }
 }
